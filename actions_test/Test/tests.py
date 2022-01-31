@@ -8,3 +8,7 @@ class MyTestCase(TestCase):
     def testSthElse(self):
         self.assertEqual(False, False)
 
+    def test(self):
+        one = 1
+        self.assertEqual(one, 1)
+
