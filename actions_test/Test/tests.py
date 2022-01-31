@@ -5,5 +5,3 @@ class MyTestCase(TestCase):
     def test_something(self):
         self.assertEqual(True, True)
 
-    def testSthElse(self):
-        self.assertEqual(True, False)
